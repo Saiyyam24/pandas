@@ -1,0 +1,17 @@
+digraph {
+	A [label="User Input"]
+	B [label="Goal Manager"]
+	C [label=Memory]
+	D [label=Planner]
+	E [label="Task Queue"]
+	F [label=Executor]
+	G [label="Toolset/APIs"]
+	H [label="Environment / Output"]
+	A -> B
+	B -> C
+	B -> D
+	D -> E
+	E -> F
+	F -> G
+	F -> H
+}
